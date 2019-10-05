@@ -1,0 +1,21 @@
+<view wx:if="{{initialed && domainWppUid!=null}}">
+    <web-view src="{{url}}" ></web-view>
+</view>
+<view wx:if="{{initialed && domainWppUid==null}}" class="page-dm-web">
+    <view class="page-dm-web-item">
+        <view>1. 请先打开客服窗口</view>
+        <view class="page-dm-web-contact-icon">
+            <image src="../../image/msg.png"></image>
+            <text>客服</text>
+            <contact-button
+                    size="27"
+                    session-from="weapp"
+                    class="page-dm-web-contact-chat"
+            >
+            </contact-button>
+        </view>
+    </view>
+    <view class="page-dm-web-item">2. 发送  后台 到客户窗口</view>
+    <view class="page-dm-web-item">3. 系统返回连接后,直接在微信打开后台管理页面</view>
+</view>
+

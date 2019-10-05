@@ -1,0 +1,24 @@
+<image class="bannerback" mode="scaleToFill" src="{{picture.project_img}}"></image>
+<view class="house_name">{{project.project_name}}</view>
+<view class="house_point">
+    <view class="house_point_text_border" wx:for="{{tag}}">{{item}}</view>
+</view>
+<view class="house_name house_address">项目地址:{{project.project_address}}</view>
+<view class="click_look">
+    <view class="click_look_border">
+        <view class="text_margintop">填写并发送以下信息，我们会第一时间联系并和您约定看房时间</view>
+    </view>
+</view>
+<form bindsubmit="formSubmit">
+    <view class="phone_number_border phone_number_border_solid">
+        <text class="phone_number" decode="{{true}}" space="{{true}}">姓名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+        <input class="phone_number_text" name="name" placeholder="请输入姓名" type="text"></input>
+    </view>
+    <view class="phone_number_border">
+        <view class="phone_number">手机号码</view>
+        <input class="phone_number_text" name="tel" placeholder="请输入十一位手机号码" type="number"></input>
+    </view>
+    <view class="bottom_border">
+        <button class="commit" formType="submit">提交</button>
+    </view>
+</form>

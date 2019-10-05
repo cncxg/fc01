@@ -1,0 +1,38 @@
+.title {
+    padding-top: 20rpx;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img_border {
+    margin: 30rpx auto;
+    height: 300rpx;
+    width: 90%;
+    background: red;
+}
+
+.img {
+    height: 300rpx;
+    width: 100%;
+}
+
+.body_text {
+    font-size: 28rpx;
+    margin: 10rpx 6.5%;
+    color: #181818;
+    width: 90%;
+    padding-bottom: 30rpx;
+}
+
+.contact_us {
+    width: 90%;
+    margin: 30rpx auto;
+    font-weight: bold;
+    font-size: 28rpx;
+}
+
+.address {
+    width: 90%;
+    margin: 20rpx auto;
+    font-size: 28rpx;
+}

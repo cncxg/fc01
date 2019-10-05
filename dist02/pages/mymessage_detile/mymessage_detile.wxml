@@ -1,0 +1,7 @@
+<view class="card_border">
+    <view class="card_center">
+        <view class="card_center_img">
+            <image class="card_center_img_img" data-list="{{maA}}" data-src="{{ma_url}}" src="{{http_url}}{{ma_url}}"></image>
+        </view>
+    </view>
+</view>

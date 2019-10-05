@@ -1,0 +1,23 @@
+.heddeng {
+    background: #C5C0AC;
+    height: 36px;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.notice {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: space-between;
+    padding: 10px;
+    border-bottom: 1px #d0e9ee solid;
+    color: #444;
+}
+
+.time {
+    color: #a8a8a8;
+}

@@ -1,0 +1,48 @@
+<view class="container">
+    <view class="header" style="background:{{intro.maincolor}}">
+        <view class="pic">
+            <image src="{{userinfo.wxInfo.avatarUrl}}"></image>
+            <view>{{userinfo.wxInfo.nickName}}</view>
+        </view>
+    </view>
+    <view class="container">
+        <view class="weui-grids">
+            <view bindtap="toJoinuser" class="weui-grid">
+                <view class="weui-grid__icon">
+                    <text class="fa fa-sitemap fa-lg" style="font-size:4rem;color:red;"></text>
+                </view>
+                <text class="weui-grid__label">申请加入</text>
+            </view>
+            <view bindtap="toMyteam" class="weui-grid">
+                <view class="weui-grid__icon">
+                    <text class="fa fa-users fa-lg" style="font-size:3.5rem;color:red;"></text>
+                </view>
+                <text class="weui-grid__label">我的团队</text>
+            </view>
+            <view bindtap="toFxhouse" class="weui-grid">
+                <view class="weui-grid__icon">
+                    <text class="fa fa-institution fa-lg" style="font-size:3.5rem;color:red;"></text>
+                </view>
+                <text class="weui-grid__label">房源推广</text>
+            </view>
+            <view bindtap="toMyspread" class="weui-grid">
+                <view class="weui-grid__icon">
+                    <text class="fa fa-share-alt fa-lg" style="font-size:3.5rem;color:red;"></text>
+                </view>
+                <text class="weui-grid__label">我要推广</text>
+            </view>
+            <view bindtap="toFxrecord" class="weui-grid">
+                <view class="weui-grid__icon">
+                    <text class="fa fa-reorder fa-lg" style="font-size:3.5rem;color:red;"></text>
+                </view>
+                <text class="weui-grid__label">推广客户</text>
+            </view>
+            <view bindtap="toMoneyrecord" class="weui-grid">
+                <view class="weui-grid__icon">
+                    <text class="fa fa-cubes fa-lg" style="font-size:3.5rem;color:red;"></text>
+                </view>
+                <text class="weui-grid__label">收益记录</text>
+            </view>
+        </view>
+    </view>
+</view>

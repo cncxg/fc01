@@ -1,0 +1,16 @@
+<view bindtap="shopdetileclick" class="shop_modle" data-index="{{index}}">
+    <image class="shop_modle_img" src="../images/card.png"></image>
+    <view class="shop_modle_name">爱而不见</view>
+    <view class="shop_modle_price">￥1212</view>
+</view>
+<view bindtap="shopdetileclick" class="shop_modle" data-index="{{index}}">
+    <image class="shop_modle_img" src="../images/card.png"></image>
+    <view class="shop_modle_name">爱而不见</view>
+    <view class="shop_modle_price">￥1212</view>
+</view>
+<view bindtap="shopdetileclick" class="shop_modle" data-index="{{index}}">
+    <image class="shop_modle_img" src="../images/card.png"></image>
+    <view class="shop_modle_name">爱而不见</view>
+    <view class="shop_modle_price">￥1212<text class="shop_modle_num">111</text>
+    </view>
+</view>

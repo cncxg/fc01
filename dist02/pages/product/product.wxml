@@ -1,0 +1,38 @@
+<import src="../../.././../template/template.wxml"></import>
+<view class="swiper-container">
+    <template is="swiperCon" data="{{slider:slider}}"></template>
+    <view class="dots">
+        <view class="dot{{index==swiperCurrent?' active':''}}" wx:for="{{slider}}" wx:key="unique"></view>
+    </view>
+</view>
+<view class="body">
+    <view class="bc_white">
+        <view class="nav">
+            <label bindtap="selected" class="{{_num==item.id?'red':'default'}}" data-show="{{item.id}}" id="{{item.id}}" wx:for="{{navigation}}" wx:key="navigation">
+    {{item.name}}
+    </label>
+        </view>
+    </view>
+    <view class="show">
+        <scroll-view true bindscrolltolower="loadMore" bindscrolltoupper="refesh">
+            <view bindtap="goDetail" data-id="{{item.id}}" wx:for="{{cont}}" wx:key="cont">
+                <navigator url="./detail/detail?id={{item.id}}">
+                    <view class="shopping_border">
+                        <view class="shopping_left">
+                            <image class="shopping_img" mode="aspectFill" src="{{imgurl}}{{item.image}}"></image>
+                        </view>
+                        <view class="shopping_left">
+                            <view class="shopping_text mar-top">{{item.name}}</view>
+                            <view class="shopping_text">{{item.title}}</view>
+                            <view class="shopping_text1">
+                                <text style="font-size:25rpx;">￥</text>{{item.price}}</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+            <view class="bottom_img_border">
+                <image class="bottom_img" src="../../image/down_img.png"></image>
+            </view>
+        </scroll-view>
+    </view>
+</view>

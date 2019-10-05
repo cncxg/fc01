@@ -1,0 +1,15 @@
+<view class="log">
+    <view class="heddeng">预约记录</view>
+    <view class="list" wx:for="{{log}}">
+        <view class="list_item">
+            {{item.remark?item.remark:'暂无备注信息'}}
+        </view>
+        <view class="list_item">
+            <text class="time">2017/10/10</text>
+            <view>
+                <text class="show clolor{{item.status}}">{{item.status==1?'未':'已'}}查看</text>
+                <image src="../../../image/{{item.status==1?'no':'ok'}}.png"></image>
+            </view>
+        </view>
+    </view>
+</view>

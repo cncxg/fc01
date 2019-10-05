@@ -1,0 +1,6 @@
+<template name="menuButton">
+    <view class="flex-wrp" style="flex-direction:column;">
+        <image class="menuItem_icon" src="{{menuIcon}}"></image>
+        <text class="menuItem_name">{{menuName}}</text>
+    </view>
+</template>

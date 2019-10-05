@@ -1,0 +1,14 @@
+<view class="background" wx:for="{{sale}}">
+    <view class="news_border">
+        <view class="bt_border">
+            <image class="bt_border_img" src="../images/biao.png"></image>
+            <view class="bt_border_text">{{item.time}}</view>
+            <view class="bt_border_text_border">
+                <view class="bt_border_text_border_size">NEW</view>
+            </view>
+        </view>
+        <view class="news_border_text new_size_down">{{item.content}}</view>
+    </view>
+</view>
+<view class="nav"></view>
+<view class="more_news">- 没有更多动态了 -</view>

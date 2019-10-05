@@ -1,0 +1,68 @@
+page {
+    background: #F0F0F0;
+}
+
+.top_modle {
+    height: 60rpx;
+    padding-top: 20rpx;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 30rpx;
+    background: white;
+    float: left;
+}
+
+.top_modle_right_text {
+    float: right;
+    margin-top: 5rpx;
+    font-size: 25rpx;
+    color: #D0D0D0;
+}
+
+.housetype_modle {
+    height: 470rpx;
+    width: 44%;
+    margin-left: 4%;
+    float: left;
+    margin-top: 20rpx;
+    background: white;
+    border-top-left-radius: 10rpx;
+    border-top-right-radius: 10rpx;
+}
+
+.housetype_modle_top {
+    width: 95%;
+    padding-left: 5%;
+    height: 80rpx;
+    float: left;
+    font-size: 30rpx;
+    line-height: 80rpx;
+    border-top-left-radius: 10rpx;
+    border-top-right-radius: 10rpx;
+}
+
+.housetype_modle_center {
+    height: 270rpx;
+    float: left;
+    width: 100%;
+}
+
+.housetype_modle_bottm {
+    height: 125rpx;
+    background: #F0F0F0;
+    float: left;
+    width: 100%;
+}
+
+.housetype_modle_bottm_text {
+    width: 90%;
+    margin-top: 10rpx;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 25rpx;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

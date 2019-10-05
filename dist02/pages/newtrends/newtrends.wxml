@@ -1,0 +1,14 @@
+<view class="daishou_modle">待售</view>
+<view class="housetype_border">
+    <view class="housetype_border_modle" wx:for="{{sale}}">
+        <view class="housetype_border_modle_top">
+            <text class="housetype_border_modle_top_louceng">#{{item.building}}</text>
+            <text class="housetype_border_modle_top_time">开盘时间: {{item.open_time}}</text>
+            <text class="housetype_border_modle_top_time">交付时间:{{item.deliver_time?item.deliver_time:'更新中'}}</text>
+        </view>
+        <text class="housetype_border_modle_down_message">总楼层：{{item.floor}}</text>
+        <text class="housetype_border_modle_down_message">总套数：{{item.num}}套</text>
+        <text class="housetype_border_modle_down_message">主力户型：{{item.household}}</text>
+        <text class="housetype_border_modle_down_message">物业类型：{{item.house_type==1?'住宅':'商业'}}</text>
+    </view>
+</view>

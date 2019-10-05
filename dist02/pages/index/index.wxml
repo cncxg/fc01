@@ -1,0 +1,29 @@
+<image class="scroll" src="{{picture.background_img}}"></image>
+<image class="backimg" src="../images/index_back.jpg"></image>
+<view class="write_area">
+    <view class="nav">
+        <view class="nav_modle" wx:for="{{tag}}">{{item}}</view>
+    </view>
+    <view bindtap="yue" class="center_modle">
+        <view class="center_modle_img_border">
+            <image class="center_modle_img" src="../images/index_look.png"></image>
+        </view>
+        <view class="center_modle_title">预约看房</view>
+    </view>
+    <view bindtap="service" class="center_modle">
+        <view class="center_modle_img_border">
+            <image class="center_modle_img" src="../images/index_people.png"></image>
+        </view>
+        <view class="center_modle_title">置业顾问</view>
+    </view>
+    <view bindtap="tip" class="center_modle">
+        <view class="center_modle_img_border">
+            <image class="center_modle_img" src="../images/index_huodong.png"></image>
+        </view>
+        <view class="center_modle_title">热门活动</view>
+    </view>
+    <view class="daohang_modle">
+        <image bindtap="tel" class="daohang_modle_img daohang_modle_img_left" src="../images/l.png"></image>
+        <image bindtap="map" class="daohang_modle_img daohang_modle_img_right" src="../images/r.png"></image>
+    </view>
+</view>

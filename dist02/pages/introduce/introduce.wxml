@@ -1,0 +1,6 @@
+<import src="../../towxml/entry.wxml"></import>
+<view class="title">企业简介</view>
+<template is="entry" data="{{...description}}"></template>
+<view class="contact_us">联系我们</view>
+<view class="address">地址：{{notice.address}}</view>
+<view class="address">电话：{{notice.phone}}</view>

@@ -1,0 +1,144 @@
+.scroll {
+    position: fixed;
+    height: 540rpx;
+    width: 100%;
+    float: left;
+}
+
+.backimg {
+    position: fixed;
+    height: 640rpx;
+    width: 100%;
+    top: 540rpx;
+}
+
+.write_area {
+    position: fixed;
+    height: 640rpx;
+    width: 100%;
+    float: left;
+    top: 540rpx;
+}
+
+.nav {
+    padding-top: 0rpx;
+    padding-bottom: 20rpx;
+    width: 100%;
+    border-bottom: 1rpx solid #989898;
+}
+
+.nav_modle {
+    display: inline-block;
+    padding-top: 10rpx;
+    padding-bottom: 10rpx;
+    width: 22%;
+    text-align: center;
+    margin-left: 2.4%;
+    background: rgba(0,0,0,0.1);
+    font-size: 30rpx;
+    margin-top: 20rpx;
+    opacity: 0.8;
+    border-radius: 30rpx;
+    color: #F0F0F0;
+}
+
+.center_modle {
+    height: 270rpx;
+    width: 33.33%;
+    float: left;
+}
+
+.center_modle_img_border {
+    height: 150rpx;
+    width: 150rpx;
+    margin: 0 auto;
+    margin-top: 30rpx;
+}
+
+.center_modle_img {
+    height: 150rpx;
+    width: 150rpx;
+}
+
+.center_modle_title {
+    margin-top: 30rpx;
+    width: 100%;
+    font-size: 30rpx;
+    color: white;
+    text-align: center;
+}
+
+.daohang_modle {
+    height: 100rpx;
+    width: 40%;
+    float: left;
+    margin-left: 30%;
+    margin-top: 10rpx;
+}
+
+.daohang_modle_img {
+    height: 100rpx;
+    width: 100rpx;
+}
+
+.daohang_modle_img_left {
+    float: left;
+}
+
+.daohang_modle_img_right {
+    float: right;
+}
+
+.div {
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.div image {
+    height: 100%;
+    width: 100%;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.time {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    display: inline-block;
+    padding-top: 6rpx;
+    padding-bottom: 6rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    background: #666666;
+    font-size: 30rpx;
+    opacity: 0.6;
+    border-radius: 20rpx;
+    color: #F0F0F0;
+    z-index: 455;
+}

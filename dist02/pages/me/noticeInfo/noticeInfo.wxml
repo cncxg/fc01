@@ -1,0 +1,6 @@
+<import src="../../../towxml/entry.wxml"></import>
+<view class="title">{{notice.title}}</view>
+<view class="img_border">
+    <image class="img" src="https://www.monainet.com{{notice.img}}"></image>
+</view>
+<template is="entry" data="{{...description}}"></template>

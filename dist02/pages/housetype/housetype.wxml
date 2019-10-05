@@ -1,0 +1,46 @@
+<image class="banner" src="{{picture.sale_img}}"></image>
+<view class="daishou_modle">待售</view>
+<view class="housetype_border">
+    <view class="housetype_border_modle" wx:for="{{sale}}">
+        <navigator url="../housetypedetile/housetypedetile?id={{item.sale_id}}&build={{item.building}}">
+            <view class="housetype_border_modle_top">
+                <text class="housetype_border_modle_top_louceng">#{{item.building}}</text>
+                <text class="housetype_border_modle_top_time">开盘时间:{{item.open_time}}</text>
+                <text class="housetype_border_modle_top_time">交付时间:{{item.deliver_time?item.deliver_time:'更新中'}}</text>
+            </view>
+            <text class="housetype_border_modle_down_message">总楼层：{{item.floor}}层</text>
+            <text class="housetype_border_modle_down_message">总套数：{{item.num}}套</text>
+            <text class="housetype_border_modle_down_message">主力户型：{{item.household}}</text>
+            <text class="housetype_border_modle_down_message">物业类型：{{item.house_type==1?'住宅':'商业'}}</text>
+        </navigator>
+    </view>
+</view>
+<view bindtap="mood" class="look_more_message">
+  查看更多
+  <text style="color:#2881bb">待售</text> 楼栋信息
+  <image class="look_more_message_img" src="../images/back.png"></image>
+</view>
+<view class="all_housetype">全部户型
+  <text style="float:right;color:#D0D0D0">共{{count}}张图片</text>
+</view>
+<view bindtap="all" class="type_border {{check?'active':''}}">全部</view>
+<view bindtap="active" class="type_border {{checkIndex==index?'active':''}}" data-id="{{item.id}}" data-index="{{index}}" wx:for="{{active}}">{{item.layout_type}}</view>
+<view class="nav"></view>
+<view wx:if="{{is_show}}">
+    <view class="modle" wx:for="{{houseTypea?houseTypea:houseType}}">
+        <view class="daishou_title">待售</view>
+        <image bindtap="previewImage" class="modle_img" data-index="{{index}}" src="{{pictures.index}}"></image>
+        <text class="modle_title">户型：{{item.layout}}</text>
+        <text class="modle_title">面积：{{item.measure}}</text>
+        <text class="modle_title">描述：{{item.comment}}</text>
+    </view>
+</view>
+<view class="null_house" wx:else>暂无楼盘销售</view>
+<view class="custom_img">
+    <navigator url="../service/service">
+        <image class="custom_img" src="../images/custom.png"></image>
+    </navigator>
+</view>
+<view class="bottom_img_border">
+    <image class="bottom_img" src="{{info.copyright?info.copyright:'/image/down_img.png'}}"></image>
+</view>

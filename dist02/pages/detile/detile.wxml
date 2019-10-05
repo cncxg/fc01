@@ -1,0 +1,71 @@
+<image class="slide-image scroll" height="150" src="{{bg_img}}" width="355"></image>
+<view class="product_title">{{detile.project_name}}</view>
+<view class="product_title product_title_top">
+    <text class="data"> {{c_time}} 日价格：</text>
+    <text class="price">{{detile.avg_price}}</text>
+</view>
+<view class="message_modle message_top">
+    <view class="message_modle_text">主力户型 : {{detile.project_layout}}</view>
+</view>
+<view class="message_modle">
+    <view class="message_modle_text">开盘时间 : {{detile.begin_time}}</view>
+</view>
+<view class="message_modle">
+    <view class="message_modle_text">物业类型 : {{detile.type==1?'住宅':'商铺'}}</view>
+</view>
+<view class="message_modle">
+    <view class="message_modle_text">开发企业 : {{detile.house_company}}</view>
+</view>
+<view class="message_modle">
+    <view class="message_modle_text">物业公司 : {{detile.property_company}}</view>
+</view>
+<view bindtap="controltap" class="message_modle message_modle_last">
+    <image class="message_daohang" src="../images/daohang.png"></image>
+    <view class="message_modle_text">项目地址 : {{detile.project_address}}</view>
+</view>
+<view bindtap="news" class="news">
+    <view class="news_title">最新动态</view>
+    <image class="news_img" src="../images/back.png"></image>
+</view>
+<view class="news_border">
+    <view class="bt_border">
+        <image class="bt_border_img" src="../images/biao.png"></image>
+        <view class="bt_border_text">{{c_time}}</view>
+        <view class="bt_border_text_border">
+            <view class="bt_border_text_border_size">NEW</view>
+        </view>
+    </view>
+    <view class="news_border_text new_size_down">{{nes.content}}</view>
+</view>
+<view class="swiper-tab">
+    <view bindtap="swichNav" class="swiper-tab-list {{currentTab==index?'on':''}}" data-current="{{index}}" wx:for="{{swiArr}}">{{item}}</view>
+</view>
+<swiper bindchange="bindChange" class="swiper-box" current="{{currentTab}}" duration="300" style="overflow:hidden;height:300rpx;">
+    <swiper-item>
+        <view class="modle_nav_detile">{{detile.traffic}}</view>
+    </swiper-item>
+    <swiper-item>
+        <view class="modle_nav_detile">{{detile.life}}</view>
+    </swiper-item>
+    <swiper-item>
+        <view class="modle_nav_detile">{{detile.education}}</view>
+    </swiper-item>
+</swiper>
+<view class="news zhoubian">
+    <view class="news_title">周边</view>
+    <image class="news_img" src="../images/back.png"></image>
+</view>
+<view class="map">
+    <map showLocation bindmarkertap="markertap" bindregionchange="regionchange" bindtap="controltap" circles="{{circles}}" controls="{{controls}}" id="map" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" polyline="{{polyline}}" scale="14" style="width: 100%; height: 170px;"></map>
+</view>
+<view bindtap="yue" class="house_border back">
+    <button class="width_btn">预约看房</button>
+</view>
+<view class="bottom_img_border">
+    <image class="bottom_img" src="{{banq?banq:'/image/down_img.png'}}"></image>
+</view>
+<view class="custom_img">
+    <navigator url="../service/service">
+        <image class="custom_img" src="../images/custom.png"></image>
+    </navigator>
+</view>

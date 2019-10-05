@@ -1,0 +1,71 @@
+page {
+    background: #F0F0F0;
+}
+
+.daishou_modle {
+    height: 80rpx;
+    width: 95%;
+    padding-left: 5%;
+    line-height: 80rpx;
+    float: left;
+    background: white;
+    font-size: 30rpx;
+    color: #666666;
+}
+
+.housetype_border {
+    padding-bottom: 20rpx;
+    width: 100%;
+    float: left;
+    background: #F0F0F0;
+}
+
+.housetype_border_modle {
+    height: 250rpx;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20rpx;
+    background: #ffffff;
+    border-radius: 20rpx;
+    border: 1rpx solid #d4d9dc;
+}
+
+.housetype_border_modle_top {
+    height: 100rpx;
+    width: 100%;
+    border-bottom: 1rpx solid #d4d9dc;
+}
+
+.housetype_border_modle_top_louceng {
+    font-size: 45rpx;
+    margin-top: 20rpx;
+    float: left;
+    color: #cf782b;
+    margin-left: 3%;
+}
+
+.housetype_border_modle_top_time {
+    font-size: 23rpx;
+    margin-top: 40rpx;
+    float: left;
+    color: #666666;
+    width: 36%;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 2%;
+}
+
+.housetype_border_modle_down_message {
+    width: 48%;
+    float: left;
+    color: #666666;
+    margin-left: 2%;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 20rpx;
+    font-size: 27rpx;
+}

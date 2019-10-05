@@ -1,0 +1,7 @@
+<view class="page-body">
+    <view class="heddeng">企业公告</view>
+    <view class="notice" wx:for="{{list}}">
+        <view bindtap="childPage" data-id="{{item.id}}">{{item.title}}</view>
+        <view class="time">{{item.create_time}}</view>
+    </view>
+</view>

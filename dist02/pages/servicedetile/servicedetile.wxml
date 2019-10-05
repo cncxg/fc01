@@ -1,0 +1,30 @@
+<view class="bannerback">
+    <image class="backimg" src="{{adviser_img}}"></image>
+    <image class="head_img" src="{{user.head_img}}"></image>
+    <view class="zan_border">
+        <image class="zan_border_img" src="../images/zan_active.png" wx:if="{{user.house_member||zan}}"></image>
+        <image bindtap="zan" class="zan_border_img" data-id="{{user.adviser_id}}" src="../images/zan.png" wx:else></image>
+        <text class="zan_border_text">{{conutZan+zan}}</text>
+    </view>
+    <view class="message_border">
+        <view class="message_name">{{user.name}}
+<text class="guwen_text">置业顾问</text>
+        </view>
+        <view class="message_name">{{user.phone}}</view>
+        <view class="message_img_border">
+            <image class="message_img" src="{{logo}}"></image>
+        </view>
+    </view>
+</view>
+<view class="house_name">{{detile.name}}</view>
+<view class="house_point">
+    <view class="house_point_text_border" wx:for="{{detile.title}}">{{item}}</view>
+</view>
+<view class="house_name house_address">项目地址:{{project.project_address}} </view>
+<view bindtap="stito" class="click_look">
+    <view class="click_look_border">
+点击查看项目详细信息
+<image class="click_look_border_img" src="../images/back.png"></image>
+    </view>
+</view>
+<button bindtap="tel" class="phone_btn" data-tel="{{user.phone}}">一键拨号</button>

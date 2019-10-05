@@ -1,0 +1,41 @@
+page {
+    background: #f0f0f0;
+}
+
+.shop_modle {
+    height: 400rpx;
+    width: 45%;
+    float: left;
+    margin-left: 3.33%;
+    background: white;
+    margin-top: 30rpx;
+}
+
+.shop_modle_img {
+    height: 300rpx;
+    width: 100%;
+    display: block;
+}
+
+.shop_modle_name {
+    width: 96;
+    line-height: 50rpx;
+    margin-left: 3%;
+    font-size: 28rpx;
+    color: #666666;
+}
+
+.shop_modle_price {
+    width: 90;
+    line-height: 50rpx;
+    margin-left: 5%;
+    font-size: 28rpx;
+    color: black;
+}
+
+.shop_modle_num {
+    color: #666666;
+    padding-right: 10%;
+    font-size: 27rpx;
+    float: right;
+}

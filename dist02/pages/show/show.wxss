@@ -1,0 +1,51 @@
+.div {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.div image {
+    height: 100%;
+    width: 100%;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.time {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    display: inline-block;
+    padding-top: 6rpx;
+    padding-bottom: 6rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    background: #666666;
+    font-size: 30rpx;
+    opacity: 0.6;
+    border-radius: 20rpx;
+    color: #F0F0F0;
+    z-index: 455;
+}

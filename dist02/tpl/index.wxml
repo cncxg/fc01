@@ -1,0 +1,16 @@
+<template name="appoint">
+    <view class="nav"></view>
+    <view class="yuyue_text">预 / 约 / 体 / 验</view>
+    <view class="yuyue_border"></view>
+    <view class="yueyue_eng_text">RESERYVATION CONSULTAION</view>
+    <form bindsubmit="formSubmit">
+        <input class="find" name="name" placeholder="请输入姓名" type="text"></input>
+        <input class="find" name="tel" placeholder="请输入联系电话" type="text"></input>
+        <input class="find" name="email" placeholder="请输入邮箱" type="text"></input>
+        <input class="find" name="weixin" placeholder="请输入微信号" type="text"></input>
+        <button class="btn" formType="submit">提交</button>
+    </form>
+    <view class="bottom_img_border">
+        <image class="bottom_img" src="/image/down_img.png"></image>
+    </view>
+</template>

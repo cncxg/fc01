@@ -1,0 +1,57 @@
+page {
+    background: #F0F0F0;
+}
+
+.modle {
+    width: 100%;
+    float: left;
+    margin-top: 10rpx;
+    height: 200rpx;
+    background: white;
+}
+
+.modle_img {
+    height: 150rpx;
+    width: 150rpx;
+    margin-left: 60rpx;
+    float: left;
+    border-radius: 100rpx;
+    margin-top: 25rpx;
+}
+
+.modle_title {
+    float: left;
+    height: 80rpx;
+    width: 350rpx;
+    margin-top: 50rpx;
+    margin-left: 40rpx;
+}
+
+.modle_title_top {
+    height: 60rpx;
+    font-size: 30rpx;
+    color: #666666;
+    width: 100%;
+    float: left;
+}
+
+.modle_title_top_down {
+    font-size: 30rpx;
+    color: #707070;
+    width: 100%;
+    float: left;
+    height: 50rpx;
+}
+
+.modle_title_top_down_img {
+    height: 40rpx;
+    width: 40rpx;
+}
+
+.modle_right_img {
+    height: 70rpx;
+    width: 70rpx;
+    margin-top: 65rpx;
+    margin-right: 40rpx;
+    float: right;
+}

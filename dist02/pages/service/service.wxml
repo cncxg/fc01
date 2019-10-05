@@ -1,0 +1,16 @@
+<view class="modle" wx:for="{{user}}">
+    <view></view>
+    <view bindtap="user" data-id="{{item.adviser_id}}">
+        <image class="modle_img" src="{{http_url}}{{item.head_img}}"></image>
+        <view class="modle_title">
+            <view class="modle_title_top">{{item.name}}</view>
+            <view class="modle_title_top_down" wx:if="{{item['zan']}}">
+                <image class="modle_title_top_down_img" src="../images/zan_active.png"></image> {{item.fbulous}}
+        </view>
+            <view class="modle_title_top_down" wx:else>
+                <image class="modle_title_top_down_img" src="../images/zan.png"></image> {{item.fbulous?item.fbulous:0}}
+        </view>
+        </view>
+    </view>
+    <image bindtap="tel" class="modle_right_img" data-tel="{{item.phone}}" src="../images/phone.png"></image>
+</view>

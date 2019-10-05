@@ -1,0 +1,88 @@
+.title_text {
+    font-size: 40rpx;
+    margin-left: 30rpx;
+}
+
+.title_content {
+    font-size: 30rpx;
+    margin-left: 30rpx;
+}
+
+.find {
+    height: 80rpx;
+    width: 87%;
+    margin-top: 30rpx;
+    float: left;
+    font-size: 25rpx;
+    padding-left: 3%;
+    margin-left: 5%;
+    background: #F0F0F0;
+}
+
+.btn {
+    height: 70rpx;
+    width: 24%;
+    margin-left: 38%;
+    float: left;
+    font-size: 28rpx;
+    color: white;
+    border-radius: 0rpx;
+    margin-top: 50rpx;
+    background: #989278;
+}
+
+.nav {
+    height: 30rpx;
+    width: 100%;
+    float: left;
+}
+
+.yuyue_text {
+    font-size: 30rpx;
+    margin-top: 40rpx;
+    width: 34%;
+    text-align: center;
+    background: white;
+    margin: 0 auto;
+    float: left;
+    z-index: 10;
+    height: 30rpx;
+    color: #bbb8b1;
+    margin-left: 33%;
+    position: relative;
+}
+
+.yuyue_border {
+    height: 1px;
+    width: 90%;
+    margin-top: -8rpx;
+    float: left;
+    margin-left: 5%;
+    border-bottom: 1px solid #bbb8b1;
+}
+
+.yueyue_eng_text {
+    width: 100%;
+    float: left;
+    color: #bbb8b1;
+    font-size: 25rpx;
+    margin-top: 30rpx;
+    text-align: center;
+    position: relative;
+}
+
+.bottom_img_border {
+    margin-top: 60rpx;
+    float: left;
+    height: 100rpx;
+    width: 100%;
+    background: #F9F9F9;
+}
+
+.bottom_img {
+    height: 85rpx;
+    width: 216rpx;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10rpx;
+}

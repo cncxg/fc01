@@ -1,0 +1,7 @@
+<template name="swiperCon">
+    <swiper autoplay="auto" bindchange="swiperChange" class="swiper" current="{{swiperCurrent}}" duration="500" interval="5000">
+        <swiper-item wx:for="{{banner}}" wx:key="unique">
+            <image class="img" src="{{item.house_img}}"></image>
+        </swiper-item>
+    </swiper>
+</template>

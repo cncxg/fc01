@@ -1,0 +1,139 @@
+.bannerback {
+    background: #F0F0F0;
+    height: 300rpx;
+    width: 100%;
+    float: left;
+}
+
+.house_name {
+    margin-top: 20rpx;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    color: #414141;
+    font-size: 50rpx;
+}
+
+.house_point {
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 20rpx;
+}
+
+.house_point_text_border {
+    float: left;
+    margin-left: 2%;
+    color: #3d3d3d;
+    margin-top: 10rpx;
+    background: #F0F0F0;
+    border-radius: 30rpx;
+    padding: 10rpx;
+    text-align: center;
+    font-size: 30rpx;
+}
+
+.house_address {
+    margin-top: 30rpx;
+    font-size: 30rpx;
+    color: #acacac;
+}
+
+.click_look {
+    height: 145rpx;
+    width: 100%;
+    float: left;
+    background: #f2f2f2;
+    margin-top: 30rpx;
+}
+
+.click_look_border {
+    width: 90%;
+    color: #5e5e5e;
+    margin-left: 5%;
+    float: left;
+    font-size: 30rpx;
+    line-height: 50rpx;
+    height: 145rpx;
+}
+
+.text_margintop {
+    margin-top: 20rpx;
+}
+
+.click_look_border_img {
+    height: 40rpx;
+    width: 40rpx;
+    float: right;
+    margin-top: 20rpx;
+}
+
+.phone_number_border {
+    height: 100rpx;
+    width: 100%;
+    background: white;
+    float: left;
+}
+
+.phone_number_border_solid {
+    border-bottom: 1rpx solid #F0F0F0;
+}
+
+.phone_number {
+    width: 30%;
+    line-height: 105rpx;
+    float: left;
+    font-size: 35rpx;
+    text-align: center;
+}
+
+.phone_number_text {
+    height: 100rpx;
+    font-size: 30rpx;
+    width: 70%;
+    color: #666666;
+    float: left;
+}
+
+.commit {
+    width: 90%;
+    color: white;
+    background: #ef6c02;
+    margin-left: 5%;
+    float: left;
+    margin-top: 30rpx;
+}
+
+.agree_border {
+    width: 82%;
+    padding-bottom: 50rpx;
+    float: left;
+    margin-left: 9%;
+    margin-top: 40rpx;
+    height: 50rpx;
+}
+
+.agree_text {
+    position: absolute;
+    margin-top: -50rpx;
+    margin-left: 70rpx;
+    float: left;
+    line-height: 50rpx;
+    font-size: 27rpx;
+    text-align: center;
+    color: #666666;
+}
+
+.agree_text_color {
+    color: #0e2653;
+}
+
+.lable {
+    float: left;
+}
+
+.bottom_border {
+    background: #F0F0F0;
+    width: 100%;
+    float: left;
+}

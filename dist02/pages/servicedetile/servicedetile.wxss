@@ -1,0 +1,145 @@
+.bannerback {
+    background: #F0F0F0;
+    height: 550rpx;
+    width: 100%;
+    float: left;
+}
+
+.backimg {
+    width: 100%;
+    height: 550rpx;
+}
+
+.head_img {
+    position: absolute;
+    height: 200rpx;
+    width: 200rpx;
+    top: 50rpx;
+    border-radius: 150rpx;
+    left: 280rpx;
+}
+
+.zan_border {
+    position: absolute;
+    top: 50rpx;
+    left: 650rpx;
+    height: 50rpx;
+    font-size: 35rpx;
+    width: 100rpx;
+}
+
+.zan_border_img {
+    margin-top: 0rpx;
+    height: 40rpx;
+    width: 40rpx;
+    float: left;
+}
+
+.zan_border_text {
+    color: #fcca97;
+    line-height: 0rpx;
+    margin-left: 10rpx;
+}
+
+.message_border {
+    position: absolute;
+    height: 270rpx;
+    width: 100%;
+    top: 280rpx;
+}
+
+.message_name {
+    width: 100%;
+    font-size: 40rpx;
+    color: #fcca97;
+    text-align: center;
+}
+
+.guwen_text {
+    font-size: 25rpx;
+}
+
+.message_img_border {
+    margin-top: 25rpx;
+    height: 140rpx;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.message_img {
+    height: 140rpx;
+    width: 140rpx;
+    float: left;
+    border: 1rpx solid white;
+    background: black;
+}
+
+.house_name {
+    margin-top: 20rpx;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    color: #414141;
+    font-size: 50rpx;
+}
+
+.house_point {
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 20rpx;
+}
+
+.house_point_text_border {
+    float: left;
+    margin-left: 2%;
+    color: #3d3d3d;
+    margin-top: 10rpx;
+    background: #F0F0F0;
+    border-radius: 30rpx;
+    padding: 10rpx;
+    text-align: center;
+    font-size: 30rpx;
+}
+
+.house_address {
+    margin-top: 30rpx;
+    font-size: 30rpx;
+    color: #acacac;
+}
+
+.click_look {
+    height: 80rpx;
+    width: 100%;
+    float: left;
+    background: #f2f2f2;
+    margin-top: 30rpx;
+}
+
+.click_look_border {
+    width: 90%;
+    color: #5e5e5e;
+    margin-left: 5%;
+    float: left;
+    font-size: 30rpx;
+    line-height: 80rpx;
+    height: 80rpx;
+}
+
+.click_look_border_img {
+    height: 40rpx;
+    width: 40rpx;
+    float: right;
+    margin-top: 20rpx;
+}
+
+.phone_btn {
+    position: fixed;
+    bottom: 20rpx;
+    width: 90%;
+    color: white;
+    background: #ef6c02;
+    margin-left: 5%;
+    float: left;
+    margin-top: 30rpx;
+}

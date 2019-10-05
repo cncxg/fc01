@@ -1,0 +1,162 @@
+page {
+    background-color: #e9ebee;
+    font-size: 35rpx;
+    color: #707070;
+}
+
+.else_icon {
+    float: right;
+    width: 50rpx;
+    margin-right: 20rpx;
+    height: 50rpx;
+    margin-top: 20rpx;
+}
+
+.my_top {
+    float: left;
+    margin-top: 40rpx;
+    height: 180rpx;
+    background-color: #fff;
+    width: 100%;
+}
+
+.my_head_view {
+    float: left;
+    margin: 20rpx 10rpx;
+    height: 140rpx;
+    width: 20%;
+    border-radius: 150rpx;
+    border: 5rpx;
+}
+
+.my_headpic {
+    float: left;
+    top: 0;
+    left: 0;
+    backgroud-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 150rpx;
+}
+
+.my_top_message {
+    float: left;
+    color: #000;
+    font-size: 35rpx;
+    height: 100%;
+    width: 60%;
+    overflow: hidden;
+    line-height: 50rpx;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.my_top_nickname {
+    margin: 35rpx 15rpx 0rpx 15rpx;
+}
+
+.my_top_wechat {
+    margin: 0rpx 15rpx;
+    color: #666666;
+}
+
+.my_top_qrcode_view {
+    float: right;
+    height: 50rpx;
+    width: 50rpx;
+    margin: 60rpx 20rpx;
+}
+
+.my_top_qrcode_view image {
+    width: 100%;
+    height: 100%;
+}
+
+.my_detaile {
+    float: left;
+    margin-top: 40rpx;
+    height: 90rpx;
+    background-color: #fff;
+    width: 100%;
+}
+
+.my_2_father {
+    float: left;
+    margin-top: 40rpx;
+    height: auto;
+    background-color: #fff;
+    width: 100%;
+}
+
+.my_2_first {
+    height: 50%;
+    border-bottom: 1px solid #F0F0F0;
+    width: 100%;
+}
+
+.my_2_first_img {
+    float: left;
+    top: 0;
+    left: 0;
+    backgroud-size: cover;
+    padding: 20rpx;
+    width: 50rpx;
+    height: 50rpx;
+}
+
+.my_2_first_sex {
+    float: left;
+    font-size: 30rpx;
+    margin-top: 23rpx;
+}
+
+.my_2_second {
+    float: left;
+    height: 50%;
+    width: 100%;
+    margin-top: -10rpx;
+}
+
+.else_icon_img {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    margin-top: 20rpx;
+    height: 40rpx;
+    width: 40rpx;
+}
+
+.erweima_border {
+    top: 0rpx;
+    height: 2000rpx;
+    width: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    z-index: 34;
+}
+
+.erweima_border_border {
+    height: 700rpx;
+    width: 580rpx;
+    display: block;
+    border-radius: 10rpx;
+    background: white;
+    margin: 200rpx auto;
+}
+
+.erweima_border_title {
+    width: 100%;
+    color: #666666;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding-top: 36px;
+}
+
+.erweima_border_border_img {
+    float: left;
+    height: 340rpx;
+    margin-left: 120rpx;
+    width: 340rpx;
+}

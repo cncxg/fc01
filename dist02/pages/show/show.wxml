@@ -1,0 +1,4 @@
+<view class="div">
+    <view class="time" wx:if="{{num}}">{{num}}</view>
+    <image src="{{bg_img}}"></image>
+</view>

@@ -1,0 +1,13 @@
+<view class="top_modle">
+    {{name}}
+    <text class="top_modle_right_text">点击查看该户型所在楼位置</text>
+</view>
+<view bindtap="previewImage" class="housetype_modle" data-index="{{index}}" wx:for="{{houseType}}" wx:key="unique">
+    <view class="housetype_modle_top">{{item.name}}</view>
+    <image class="housetype_modle_center" src="{{pictures.index}}"></image>
+    <view class="housetype_modle_bottm">
+        <view class="housetype_modle_bottm_text">户型:{{item.layout}}</view>
+        <view class="housetype_modle_bottm_text">面积:{{item.measure}}</view>
+        <view class="housetype_modle_bottm_text">评论:{{item.comment}}</view>
+    </view>
+</view>

@@ -1,0 +1,69 @@
+{
+    "pages": [
+        "pages/show/show",
+        "pages/index/index",
+        "pages/mymessage/mymessage",
+        "pages/mymessage_detile/mymessage_detile",
+        "pages/protocol/protocol",
+        "pages/detile/detile",
+        "pages/newtrends/newtrends",
+        "pages/service/service",
+        "pages/special/special",
+        "pages/servicedetile/servicedetile",
+        "pages/newsdetile/newsdetile",
+        "pages/housetype/housetype",
+        "pages/housetypedetile/housetypedetile",
+        "pages/calculator/index",
+        "pages/order/order",
+        "pages/me/noticeInfo/noticeInfo",
+        "pages/me/notice/notice",
+        "pages/product/detail/detail",
+        "pages/introduce/introduce",
+        "pages/mymessage/mydetails/index"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#8B8378",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f9f9f9",
+        "backgroundTextStyle": "light"
+    },
+    "tabBar": {
+        "color": "#979696",
+        "selectedColor": "#ffffff",
+        "borderStyle": "black",
+        "backgroundColor": "#8B8378",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/index/index",
+                "iconPath": "image/home1.png",
+                "selectedIconPath": "image/home.png"
+            },
+            {
+                "text": "项目详情",
+                "pagePath": "pages/detile/detile",
+                "iconPath": "image/info2.png",
+                "selectedIconPath": "image/info1.png"
+            },
+            {
+                "text": "开盘动态",
+                "pagePath": "pages/housetype/housetype",
+                "iconPath": "image/d_2.png",
+                "selectedIconPath": "image/d_1.png"
+            },
+            {
+                "text": "我的",
+                "pagePath": "pages/mymessage/mymessage",
+                "iconPath": "image/users1.png",
+                "selectedIconPath": "image/users.png"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    },
+    "debug": false
+}

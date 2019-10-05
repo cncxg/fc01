@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "门店",
+  "usingComponents": {
+    "app-tab": "../../components/app-tab/app-tab",
+    "app-contact-icon": "../../components/app-contact-icon/app-contact-icon",
+    "app-home-icon": "../../components/app-home-icon/app-home-icon"
+  }
+}

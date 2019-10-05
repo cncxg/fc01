@@ -1,0 +1,5 @@
+<import src="../../../towxml/entry.wxml"></import>
+<import src="../../../tpl/index.wxml"></import>
+<view class="title">{{title}}</view>
+<template is="entry" data="{{...article}}"></template>
+<template is="appoint" data></template>

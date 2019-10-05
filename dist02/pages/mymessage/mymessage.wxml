@@ -1,0 +1,62 @@
+<view class="my_top">
+    <view class="my_head_view">
+        <image class="my_headpic" src="{{logo?logo:user.headpic}}"></image>
+    </view>
+    <view class="my_top_message">
+        <view class="my_top_nickname" style="{{user.weixin==''?'margin-top:60rpx':''}}">
+昵称：{{nickname?nickname:user.nickname}}
+</view>
+    </view>
+    <view bindtap="code" class="my_top_qrcode_view" wx:if="{{user.sale_id==1}}">
+        <image class="my_top_qrcode_img" src="../images/card.png"></image>
+    </view>
+</view>
+<view bindtap="todetails" class="my_detaile">
+    <image class="my_2_first_img" src="../images/u.png"></image>
+    <view class="my_2_first_sex">
+          个人信息
+      </view>
+    <view class="else_icon">
+        <image class="else_icon_img" src="../images/back.png"></image>
+    </view>
+</view>
+<view class="my_2_father">
+    <view bindtap="appointment" class="my_2_second">
+        <image class="my_2_first_img" src="../images/v1.png"></image>
+        <view class="my_2_first_sex">
+          看房预约
+      </view>
+        <view class="else_icon">
+            <image class="else_icon_img" src="../images/back.png"></image>
+        </view>
+    </view>
+</view>
+<view class="my_2_father">
+    <view bindtap="dongtai" class="my_2_first">
+        <image class="my_2_first_img" src="../images/i1.png"></image>
+        <view class="my_2_first_sex">
+          项目详情
+      </view>
+        <view class="else_icon">
+            <image class="else_icon_img" src="../images/back.png"></image>
+        </view>
+    </view>
+    <view bindtap="building" class="my_2_second">
+        <image class="my_2_first_img" src="../images/m.png"></image>
+        <view class="my_2_first_sex">
+          开盘动态
+      </view>
+        <view class="else_icon">
+            <image class="else_icon_img" src="../images/back.png"></image>
+        </view>
+    </view>
+</view>
+<view bindtap="show" class="erweima_border" wx:if="{{show}}">
+    <view class="erweima_border_border">
+        <view class="erweima_border_title">扫一扫,关注置业顾问</view>
+        <image class="erweima_border_border_img" src="{{user.ma_url}}"></image>
+    </view>
+</view>
+<view class="bottom_img_border" style="position: absolute;bottom:0">
+    <image class="bottom_img" src="{{info.copyright?info.copyright:'/image/down_img.png'}}"></image>
+</view>

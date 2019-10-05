@@ -1,0 +1,55 @@
+.heddeng {
+    background: #C5C0AC;
+    height: 36px;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.list {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: space-between;
+    padding: 10px;
+    position: relative;
+}
+
+.list_num {
+    font-size: 14px;
+}
+
+.list_item text {
+    font-size: 12px;
+}
+
+.time,.list image {
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    color: #a8a8a8;
+}
+
+.list image {
+    width: 50rpx;
+    height: 50rpx;
+    top: 40rpx;
+}
+
+.show {
+    position: absolute;
+    top: 48rpx;
+    right: 40px;
+    font-size: 12px;
+}
+
+.clolor2 {
+    color: #1296db;
+}
+
+.clolor1 {
+    color: #a8a8a8;
+}

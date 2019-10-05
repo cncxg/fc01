@@ -1,0 +1,38 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: rpx 0;
+    box-sizing: border-box;
+}
+
+.custom_img {
+    position: fixed;
+    height: 100rpx;
+    width: 100rpx;
+    right: 20rpx;
+    background: transparent;
+    bottom: 100rpx;
+    z-index: 1001!important;
+}
+
+button::after {
+    border: none;
+}
+
+.bottom_img_border {
+    margin-top: 60rpx;
+    float: left;
+    height: 100rpx;
+    width: 100%;
+    background: #F9F9F9;
+}
+
+.bottom_img {
+    height: 85rpx;
+    width: 216rpx;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10rpx;
+}
